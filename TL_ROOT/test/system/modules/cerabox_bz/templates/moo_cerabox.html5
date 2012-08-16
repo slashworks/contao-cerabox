@@ -2,6 +2,6 @@
 <script src="plugins/cerabox/cerabox.min.js"></script>
 <script>
     window.addEvent('domready', function() {
-        $$('a[data-lightbox').cerabox();
+        $$('a[rel^=lightbox]').cerabox();
     });
 </script>

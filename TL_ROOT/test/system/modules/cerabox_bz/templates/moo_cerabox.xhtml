@@ -1,0 +1,7 @@
+<?php $GLOBALS['TL_CSS'][] = 'plugins/cerabox/style/cerabox.css'; ?>
+<script type="text/javascript" src="plugins/cerabox/cerabox.min.js"></script>
+<script type="text/javascript">
+    window.addEvent('domready', function() {
+        $$('a[rel^=lightbox]').cerabox();
+    });
+</script>
